@@ -3,17 +3,18 @@
   "name": "AL AI Showcase",
   "publisher": "BW-PA",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "AI-first Business Central AL Extension showcase - entirely written by AI",
+  "description": "Showcases everything possible within the AL language, written entirely by AI. Demonstrates tables, pages, codeunits, reports, enums, queries, XMLports, interfaces, events, and more.",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
-  "url": "",
+  "url": "https://github.com/Professional-Advantage-SDG/AL-AI-Showcase",
   "logo": "",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "runtime": "16.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -25,7 +26,7 @@
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
   }
 }

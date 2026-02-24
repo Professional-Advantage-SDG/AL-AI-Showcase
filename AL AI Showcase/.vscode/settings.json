@@ -1,0 +1,10 @@
+{
+    "al.codeAnalyzers": [
+        "CodeCop",
+        "UICop",
+        "PerTenantExtensionCop"
+    ],
+    "al.enableCodeActions": true,
+    "al.packageCachePath": ".alpackages",
+    "editor.formatOnSave": true
+}
