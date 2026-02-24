@@ -3,14 +3,20 @@
   "name": "AL AI Showcase.Test",
   "publisher": "BW-PA",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "Test suite for the AL AI Showcase extension",
+  "description": "Unit and integration tests for the AL AI Showcase extension, written entirely by AI.",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
-  "url": "",
+  "url": "https://github.com/Professional-Advantage-SDG/AL-AI-Showcase",
   "logo": "",
   "dependencies": [
+    {
+      "publisher": "BW-PA",
+      "name": "AL AI Showcase",
+      "id": "6d6bd24d-26cd-46ec-bdf7-6f851baef93c",
+      "version": "1.0.0.0"
+    },
     {
       "publisher": "Microsoft",
       "name": "Library Assert",
@@ -22,11 +28,18 @@
       "name": "Any",
       "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
       "version": "22.0.0.0"
+    },
+    {
+      "publisher": "Microsoft",
+      "name": "Library Variable Storage",
+      "id": "5095f467-0a01-4b99-99d1-9ff1237d286f",
+      "version": "22.0.0.0"
     }
   ],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "runtime": "16.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 50250,
@@ -38,7 +51,7 @@
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
   }
 }
